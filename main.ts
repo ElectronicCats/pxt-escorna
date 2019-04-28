@@ -16,7 +16,7 @@
  * Lesser General Public License for more details.
  */
 
-//% weight=2 color=#005585 icon="\uf045"
+//% weight=2 color=#005585 icon="\uf188"
 //% blockGap=8
 //% groups='["Positional", "Ultrasonic", "Configuration"]'
 enum PingUnit {
