@@ -75,42 +75,42 @@ namespace escornabot {
                 this.input1.digitalWrite(false);
                 this.input2.digitalWrite(false);
                 this.input3.digitalWrite(false);
-                this.input3.digitalWrite(true);
+                this.input4.digitalWrite(true);
             } else if (this.state == 1) {
                 this.input1.digitalWrite(false);
                 this.input2.digitalWrite(false);
                 this.input3.digitalWrite(true);
-                this.input3.digitalWrite(true);
+                this.input4.digitalWrite(true);
             } else if (this.state == 2) {
                 this.input1.digitalWrite(false);
                 this.input2.digitalWrite(false);
                 this.input3.digitalWrite(true);
-                this.input3.digitalWrite(false);
+                this.input4.digitalWrite(false);
             } else if (this.state == 3) {
                 this.input1.digitalWrite(false);
                 this.input2.digitalWrite(true);
                 this.input3.digitalWrite(true);
-                this.input3.digitalWrite(false);
+                this.input4.digitalWrite(false);
             } else if (this.state == 4) {
                 this.input1.digitalWrite(false);
                 this.input2.digitalWrite(true);
                 this.input3.digitalWrite(false);
-                this.input3.digitalWrite(false);
+                this.input4.digitalWrite(false);
             } else if (this.state == 5) {
                 this.input1.digitalWrite(true);
                 this.input2.digitalWrite(true);
                 this.input3.digitalWrite(false);
-                this.input3.digitalWrite(false);
+                this.input4.digitalWrite(false);
             } else if (this.state == 6) {
                 this.input1.digitalWrite(true);
                 this.input2.digitalWrite(false);
                 this.input3.digitalWrite(false);
-                this.input3.digitalWrite(false);
+                this.input4.digitalWrite(false);
             } else if (this.state == 7) {
                 this.input1.digitalWrite(true);
                 this.input2.digitalWrite(false);
                 this.input3.digitalWrite(false);
-                this.input3.digitalWrite(true);
+                this.input4.digitalWrite(true);
             }
 
             this.state = this.state + direction;
