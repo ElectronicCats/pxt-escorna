@@ -37,7 +37,7 @@ enum DistUnit {
  * Escornabot prototype code using 28BYJ-48 stepper motors
  */
 //% weight=100
-namespace escornabot {
+namespace escorna {
 
     export class Motor {
 
